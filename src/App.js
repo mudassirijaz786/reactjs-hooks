@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import UseStateComponent from "./components/UseStateComponent";
 import UseEffectComponent from "./components/UseEffectComponent";
+import UseContextComponent from "./components/UseContextComponent";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <UseStateComponent />
       <UseEffectComponent />
+      <UseContextComponent />
     </div>
   );
 }
