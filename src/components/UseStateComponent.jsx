@@ -7,8 +7,9 @@ const UseStateComponent = () => {
   };
   return (
     <div>
+      <h1>useState()</h1>
       <button onClick={handleAge}>increase your age</button>
-      <h1>now age is: {age}</h1>
+      <h6>now age is: {age}</h6>
     </div>
   );
 };

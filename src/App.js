@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import UseStateComponent from "./components/UseStateComponent";
+import UseEffectComponent from "./components/UseEffectComponent";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1>react application to understand hooks</h1>
       </header>
       <UseStateComponent />
+      <UseEffectComponent />
     </div>
   );
 }
