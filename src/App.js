@@ -3,6 +3,7 @@ import "./App.css";
 import UseStateComponent from "./components/UseStateComponent";
 import UseEffectComponent from "./components/UseEffectComponent";
 import UseContextComponent from "./components/UseContextComponent";
+import UseReducerComponent from "./components/UseReducerComponent";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <UseStateComponent />
       <UseEffectComponent />
       <UseContextComponent />
+      <UseReducerComponent />
     </div>
   );
 }
